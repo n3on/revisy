@@ -1,0 +1,483 @@
+# depslib dependency file v1.0
+1179411368 f:\projekte\impprojects\rvcs\x86\main\core\main.cpp
+	"windows/winClass.h"
+	<windows.h>
+
+1179939370 f:\projekte\impprojects\rvcs\x86\main\window_subsys\windows\winclass.cpp
+	"windows\winClass.h"
+	"windows\resource.h"
+
+1179588739 f:\projekte\impprojects\rvcs\x86\main\window_subsys\windows\winclass.h
+	<windows.h>
+	<commctrl.h>
+
+1179394551 f:\projekte\impprojects\rvcs\x86\main\window_subsys\guiinterface.h
+
+1179396976 f:\projekte\impprojects\rvcs\x86\main\msc\logger.cpp
+
+1179593372 f:\projekte\impprojects\rvcs\x86\main\window_subsys\windows\menue.rc
+	"resource.h"
+
+1173785069 f:\projekte\impprojects\rvcs\x86\main\window_subsys\windows\resource.h
+
+1184418940 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\logger.cpp
+	"logger.h"
+
+1179593372 f:\projekte\impprojects\revisy\rvcs\x86\main\window_subsys\windows\menue.rc
+	"resource.h"
+
+1173785069 f:\projekte\impprojects\revisy\rvcs\x86\main\window_subsys\windows\resource.h
+
+1188646475 f:\projekte\impprojects\revisy\rvcs\x86\main\window_subsys\windows\winclass.cpp
+	"winClass.h"
+	"resource.h"
+	"..\..\msc\logger.h"
+
+1188648309 f:\projekte\impprojects\revisy\rvcs\x86\main\core\main.cpp
+	<windows.h>
+	"..\window_subsys\windows\winClass.h"
+	"..\msc\logger.h"
+	"..\msc\Configurator.h"
+
+1184417442 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\logger.h
+	<windows.h>
+	<stdio.h>
+
+1189083622 f:\projekte\impprojects\revisy\rvcs\x86\main\window_subsys\windows\winclass.h
+	"..\..\gfx_subsys\opengl\windows\CoreOpenGL.h"
+	"..\..\gui\ingui.h"
+	"..\..\gui\mouse.h"
+	"..\..\core\stateManager.h"
+	"..\..\msc\configurator.h"
+	<windows.h>
+	<commctrl.h>
+
+1188841304 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\windows\coreopengl.cpp
+	"CoreOpenGL.h"
+
+1185020559 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\windows\coreopengl.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"..\..\..\core\stateManager.h"
+	"..\..\..\msc\mathUtils.h"
+	"opengl\windows\Font.h"
+	"..\..\..\msc\Camera.h"
+	"..\texture.h"
+
+1187964736 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\mathutils.cpp
+	"mathUtils.h"
+
+1183733340 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\mathutils.h
+	<math.h>
+
+1188384220 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\camera.cpp
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<math.h>
+	"camera.h"
+
+1188563838 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\camera.h
+	"mathUtils.h"
+
+1188155364 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\tgaloader.cpp
+	<windows.h>
+	<stdio.h>
+	"tgaLoader.h"
+
+1188153909 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\tgaloader.h
+
+1184773348 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\texture.cpp
+	"texture.h"
+
+1184773336 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\texture.h
+	<GL\gl.h>
+	<GL\glu.h>
+	<stdio.h>
+	"opengl\tgaLoader.h"
+
+1189239865 f:\projekte\impprojects\revisy\rvcs\x86\main\core\mainstate.cpp
+	"mainState.h"
+
+1184841838 f:\projekte\impprojects\revisy\rvcs\x86\main\core\programstate.cpp
+
+1185019693 f:\projekte\impprojects\revisy\rvcs\x86\main\core\statemanager.cpp
+	"stateManager.h"
+
+1188656696 f:\projekte\impprojects\revisy\rvcs\x86\main\core\splashstate.cpp
+	"splashState.h"
+
+1189335049 f:\projekte\impprojects\revisy\rvcs\x86\main\core\mainstate.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"opengl\Texture.h"
+	"opengl\skybox.h"
+	"opengl\loader3DS.h"
+	"opengl\objLoader.h"
+	"opengl\windows\Font.h"
+	"..\gui\ingui.h"
+	"..\msc\camera.h"
+	"..\msc\logger.h"
+	"..\msc\configurator.h"
+	"..\msc\utils.h"
+	"programState.h"
+
+1185019577 f:\projekte\impprojects\revisy\rvcs\x86\main\core\programstate.h
+	<windows.h>
+
+1188150230 f:\projekte\impprojects\revisy\rvcs\x86\main\core\splashstate.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"..\gui\ingui.h"
+	"..\msc\logger.h"
+	"..\gfx_subsys\opengl\texture.h"
+	"..\msc\camera.h"
+	"opengl\windows\Font.h"
+	"programState.h"
+
+1185019715 f:\projekte\impprojects\revisy\rvcs\x86\main\core\statemanager.h
+	<stdio.h>
+	"programState.h"
+	"splashState.h"
+	"mainState.h"
+
+1188645304 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\configurator.cpp
+	"configurator.h"
+
+1187541794 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\windows\font.cpp
+	"Font.h"
+
+1184841760 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\texture.h
+	<GL\gl.h>
+	<GL\glu.h>
+	<stdio.h>
+	"tgaLoader.h"
+
+1188389328 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\texture.cpp
+	"texture.h"
+
+1187540126 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\windows\font.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	<stdio.h>
+
+1187960566 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\loader3ds.cpp
+	"loader3DS.h"
+
+1187433827 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\loader3ds.h
+	<stdlib.h>
+	<stdio.h>
+	<GL\gl.h>
+	<GL\glu.h>
+
+1188645179 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\configurator.h
+	<windows.h>
+	<map>
+	<cmath>
+	<limits.h>
+
+1188564427 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\skybox.cpp
+	"skybox.h"
+
+1187960784 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\skybox.h
+	"Texture.h"
+
+1188379588 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\utils.h
+	<windows.h>
+
+1188379588 f:\projekte\impprojects\revisy\rvcs\x86\main\msc\utils.cpp
+	"utils.h"
+
+1188648147 f:\projekte\impprojects\revisy\rvcs\x86\main\gui\mouse.cpp
+	"mouse.h"
+
+1188655808 f:\projekte\impprojects\revisy\rvcs\x86\main\gui\ingui.cpp
+	"ingui.h"
+
+1188655795 f:\projekte\impprojects\revisy\rvcs\x86\main\gui\ingui.h
+	<windows.h>
+	<stdio.h>
+	"mouse.h"
+	"primeMenu.h"
+
+1188644951 f:\projekte\impprojects\revisy\rvcs\x86\main\gui\mouse.h
+	<windows.h>
+	"..\gfx_subsys\opengl\texture.h"
+	"..\msc\mathUtils.h"
+
+1188645336 f:\projekte\impprojects\revisy\rvcs\x86\main\gui\primemenu.h
+	<windows.h>
+	"..\gfx_subsys\opengl\texture.h"
+	"..\msc\configurator.h"
+	"mouse.h"
+
+1188648355 f:\projekte\impprojects\revisy\rvcs\x86\main\gui\primemenu.cpp
+	"primeMenu.h"
+
+1189335016 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\objloader.cpp
+	"objLoader.h"
+
+1189335079 f:\projekte\impprojects\revisy\rvcs\x86\main\gfx_subsys\opengl\objloader.h
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+
+1193496704 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\main.cpp
+	<windows.h>
+	"..\window_subsys\windows\winClass.h"
+	"..\msc\logger.h"
+	"..\msc\Configurator.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\window_subsys\windows\winclass.h
+	"..\..\gfx_subsys\opengl\windows\CoreOpenGL.h"
+	"..\..\gui\ingui.h"
+	"..\..\gui\mouse.h"
+	"..\..\core\stateManager.h"
+	"..\..\msc\configurator.h"
+	<windows.h>
+	<commctrl.h>
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\windows\coreopengl.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"..\..\..\core\stateManager.h"
+	"..\..\..\msc\mathUtils.h"
+	"opengl\windows\Font.h"
+	"..\..\..\msc\Camera.h"
+	"..\texture.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\statemanager.h
+	<stdio.h>
+	"programState.h"
+	"splashState.h"
+	"mainState.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\programstate.h
+	<windows.h>
+
+1190737481 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\splashstate.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"resourceManager.h"
+	"..\gui\ingui.h"
+	"..\msc\logger.h"
+	"..\gfx_subsys\opengl\texture.h"
+	"..\msc\camera.h"
+	"opengl\windows\Font.h"
+	"programState.h"
+
+1193568152 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gui\ingui.h
+	<windows.h>
+	<stdio.h>
+	"mouse.h"
+	"..\gfx_subsys\opengl\texture.h"
+	"..\core\stateManager.h"
+	"..\msc\configurator.h"
+	"primeMenu.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gui\mouse.h
+	<windows.h>
+	"..\gfx_subsys\opengl\texture.h"
+	"..\msc\mathUtils.h"
+
+1193567342 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\texture.h
+	<GL\gl.h>
+	<GL\glu.h>
+	<stdio.h>
+	"tgaLoader.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\tgaloader.h
+
+1190823650 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\mathutils.h
+	<math.h>
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gui\primemenu.h
+	<windows.h>
+	"..\gfx_subsys\opengl\texture.h"
+	"..\msc\configurator.h"
+	"mouse.h"
+
+1193226270 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\configurator.h
+	<windows.h>
+	<map>
+	<cmath>
+	<limits.h>
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\logger.h
+	<windows.h>
+	<stdio.h>
+
+1193476224 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\camera.h
+	"mathUtils.h"
+	"frustrum.h"
+
+1193153655 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\windows\font.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	<stdio.h>
+	"..\msc\configurator.h"
+
+1192789656 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\mainstate.h
+	<windows.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"opengl\Texture.h"
+	"opengl\skybox.h"
+	"opengl\loader3DS.h"
+	"opengl\objLoader.h"
+	"opengl\windows\Font.h"
+	"..\gui\ingui.h"
+	"..\msc\camera.h"
+	"..\msc\logger.h"
+	"..\msc\configurator.h"
+	"..\msc\utils.h"
+	"..\msc\frustrum.h"
+	"programState.h"
+	"FileManager.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\skybox.h
+	"Texture.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\loader3ds.h
+	<stdlib.h>
+	<stdio.h>
+	<GL\gl.h>
+	<GL\glu.h>
+
+1189948122 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\objloader.h
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<vector>
+	<GL\gl.h>
+	<GL\glu.h>
+
+1193476270 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\utils.h
+	<windows.h>
+
+1197717545 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\mainstate.cpp
+	"mainState.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\programstate.cpp
+
+1190737523 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\splashstate.cpp
+	"splashState.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\statemanager.cpp
+	"stateManager.h"
+
+1193234313 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\loader3ds.cpp
+	"loader3DS.h"
+
+1193234313 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\objloader.cpp
+	"objLoader.h"
+
+1190027042 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\skybox.cpp
+	"skybox.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\texture.cpp
+	"texture.h"
+
+1192876819 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\tgaloader.cpp
+	<windows.h>
+	<stdio.h>
+	"tgaLoader.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\windows\coreopengl.cpp
+	"CoreOpenGL.h"
+
+1193215532 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gfx_subsys\opengl\windows\font.cpp
+	"Font.h"
+
+1193569993 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gui\ingui.cpp
+	"ingui.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gui\mouse.cpp
+	"mouse.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\gui\primemenu.cpp
+	"primeMenu.h"
+
+1193475293 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\camera.cpp
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<math.h>
+	"camera.h"
+
+1193482169 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\configurator.cpp
+	"configurator.h"
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\logger.cpp
+	"logger.h"
+
+1190823650 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\mathutils.cpp
+	"mathUtils.h"
+
+1192870170 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\utils.cpp
+	"utils.h"
+
+1179589772 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\window_subsys\windows\menue.rc
+	"resource.h"
+
+1173781469 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\window_subsys\windows\resource.h
+
+1189431323 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\window_subsys\windows\winclass.cpp
+	"winClass.h"
+	"resource.h"
+	"..\..\msc\logger.h"
+
+1197718032 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\file.cpp
+	"file.h"
+
+1197717988 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\filemanager.cpp
+	"fileManager.h"
+
+1193478704 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\file.h
+	<windows.h>
+	<stdlib.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"resourceManager.h"
+	"..\gfx_subsys\opengl\objLoader.h"
+	"..\msc\mathUtils.h"
+
+1195307827 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\filemanager.h
+	<windows.h>
+	<stdlib.h>
+	<GL\gl.h>
+	<GL\glu.h>
+	"File.h"
+	"..\gfx_subsys\opengl\windows\Font.h"
+	"..\msc\camera.h"
+	"..\msc\utils.h"
+	"..\msc\frustrum.h"
+	"..\gui\mouse.h"
+
+1193232033 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\resourcemanager.cpp
+	"resourceManager.h"
+
+1190738143 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\core\resourcemanager.h
+	<windows.h>
+	<map>
+	"..\gfx_subsys\opengl\objLoader.h"
+	"..\gfx_subsys\opengl\texture.h"
+
+1193152524 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\frustrum.cpp
+	"frustrum.h"
+
+1193148503 f:\projekte\impprojects\revisy\ragnaruk\revisy\x86\main\msc\frustrum.h
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<GL\gl.h>
+	<GL\glu.h>
+

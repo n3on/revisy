@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_project_file>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="OpenGL Application"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option active_target="0"/>
+		<Option compiler="0"/>
+		<Build>
+			<Target title="default">
+				<Option output="..\..\..\..\..\output\release\RVCS_vDev"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="1"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="1"/>
+			</Target>
+			<Target title="release">
+				<Option output="..\..\..\..\..\output\release\RVCS_vRelease"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="0"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="0"/>
+				<Compiler>
+					<Add option="-Os"/>
+					<Add option="-O3"/>
+					<Add option="-O2"/>
+					<Add option="-O1"/>
+					<Add option="-O"/>
+				</Compiler>
+			</Target>
+			<Target title="debug">
+				<Option output="..\..\..\..\..\output\release\RVCS_vDebug"/>
+				<Option working_dir="."/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option type="0"/>
+				<Option compiler="0"/>
+				<Option projectResourceIncludeDirsRelation="0"/>
+				<Compiler>
+					<Add option="-g"/>
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall"/>
+			<Add directory=".\x86\main"/>
+			<Add directory="..\gfx_subsys"/>
+			<Add directory="..\window_subsys"/>
+		</Compiler>
+		<Linker>
+			<Add library="opengl32"/>
+			<Add library="glu32"/>
+			<Add library="gdi32"/>
+			<Add library="user32"/>
+			<Add library="kernel32"/>
+			<Add library="C:\Programme\Microsoft Platform SDK\Lib\ComCtl32.Lib"/>
+		</Linker>
+		<Unit filename="FileManager.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="file.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="file.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="fileManager.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="fileManager.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="frustrum.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="mainState.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="mainState.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="objLoader.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="primeMenu.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="programState.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="programState.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="resourceManager.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="resourceManager.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="splashState.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="splashState.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="stateManager.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="stateManager.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\loader3DS.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\loader3DS.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\objLoader.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\objLoader.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\skybox.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\skybox.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\texture.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\texture.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\tgaLoader.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\tgaLoader.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\windows\CoreOpenGL.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\windows\CoreOpenGL.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\windows\Font.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gfx_subsys\opengl\windows\Font.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\gui\ingui.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gui\ingui.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gui\mouse.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gui\mouse.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gui\primeMenu.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\gui\primeMenu.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\msc\camera.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\camera.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\configurator.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\configurator.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\frustrum.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\msc\frustrum.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\msc\logger.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\logger.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\mathUtils.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\mathUtils.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\msc\utils.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\msc\utils.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="..\window_subsys\windows\menue.rc">
+			<Option compilerVar="WINDRES"/>
+			<Option objectName="window_subsys\windows\menue.res"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\window_subsys\windows\resource.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\window_subsys\windows\winClass.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="..\window_subsys\windows\winClass.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

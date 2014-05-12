@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="FileManager.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="file.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="file.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="fileManager.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="main.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="mainState.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="mainState.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="programState.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="programState.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="resourceManager.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="resourceManager.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="splashState.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="splashState.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="stateManager.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="stateManager.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\loader3DS.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\loader3DS.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\objLoader.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\objLoader.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\skybox.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\skybox.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\texture.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\texture.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\tgaLoader.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\tgaLoader.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\windows\CoreOpenGL.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\windows\CoreOpenGL.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\windows\Font.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gfx_subsys\opengl\windows\Font.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gui\ingui.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gui\ingui.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gui\mouse.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gui\mouse.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gui\primeMenu.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\gui\primeMenu.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\camera.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\camera.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\configurator.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\configurator.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\frustrum.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\frustrum.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\logger.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\logger.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\mathUtils.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\mathUtils.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\utils.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\msc\utils.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\window_subsys\windows\menue.rc" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\window_subsys\windows\resource.h" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\window_subsys\windows\winClass.cpp" open="1" top="0">
+		<Cursor position="0" topLine="0"/>
+	</File>
+	<File name="..\window_subsys\windows\winClass.h" open="1" top="1">
+		<Cursor position="521" topLine="0"/>
+	</File>
+</CodeBlocks_layout_file>

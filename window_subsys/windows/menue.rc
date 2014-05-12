@@ -1,0 +1,18 @@
+#include "resource.h"
+
+MainMenu MENU DISCARDABLE
+BEGIN
+	POPUP "&File"
+	BEGIN
+		MENUITEM "&Exit", MENU_FILE_EXIT
+	END
+	POPUP "&View"
+	BEGIN
+		MENUITEM "Fullscreen", MENU_VIEW_FULLSCREEN
+	END
+	POPUP "&Info"
+	BEGIN
+		MENUITEM "About", MENU_INFO_ABOUT
+	END
+END
+
